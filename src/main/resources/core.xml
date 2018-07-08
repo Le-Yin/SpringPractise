@@ -16,8 +16,8 @@
     </bean>
 
     <bean id="address1" class="beans.Address">
-        <property name="city" value="SH"></property>
-        <property name="detailAddress" value="Zhoupu"></property>
-    </bean>
+        <constructor-arg index="0" value="SH" />
+        <constructor-arg index="1" value="Zhoupu" />
 
+    </bean>
 </beans>

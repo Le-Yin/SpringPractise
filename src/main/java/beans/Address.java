@@ -8,6 +8,12 @@ public class Address {
     private String city;
     private String detailAddress;
 
+    public Address(String city, String detailAddress) {
+        this.city = city;
+        this.detailAddress = detailAddress;
+        System.out.println(this.toString() + " created successfully. ");
+    }
+
     public String getCity() {
         return city;
     }
